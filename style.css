@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.price-grid-component {
+  margin: 230px auto;
+  width: 800px;
+  display: grid;
+  grid-template-columns: 400px 400px;
+}
+.description {
+  background-color: #fff;
+  grid-column: 1 / -1;
+}
+
+.subscription {
+  background-color: #2ab2b0ed;
+}
+
+.why-us {
+  background-color: #2ab2b0c9;
+}
+/* Default Styles for Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
