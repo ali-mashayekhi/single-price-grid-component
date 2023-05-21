@@ -8,26 +8,119 @@ body {
   font-size: 16px;
   font-family: "Outfit", sans-serif;
   background-color: hsl(204, 43%, 93%);
+  line-height: 1.4;
 }
 
 .price-grid-component {
-  margin: 230px auto;
-  width: 800px;
+  margin: 100px auto;
+  width: 650px;
   display: grid;
-  grid-template-columns: 400px 400px;
+  grid-template-columns: 1fr 1fr;
+  border: 1px;
+  box-shadow: 0 0 50px hsla(216, 22%, 67%, 0.395);
+  border-radius: 10px;
 }
 .description {
   background-color: #fff;
   grid-column: 1 / -1;
+  padding: 40px;
+  border-radius: 10px 10px 0 0;
 }
 
 .subscription {
-  background-color: #2ab2b0ed;
+  background-color: #2ab2b0f9;
+  border-bottom-left-radius: 10px;
+  padding: 40px;
 }
 
 .why-us {
-  background-color: #2ab2b0c9;
+  background-color: #2ab2b0d8;
+  border-bottom-right-radius: 10px;
+  padding: 40px;
 }
+
+/* Description  */
+.description h2 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.description h3 {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.description p {
+  color: hsl(218, 22%, 67%);
+  font-weight: 400;
+}
+
+/* Subscription */
+.subscription h3 {
+  color: hsl(204, 43%, 93%);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.monthly-price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.price {
+  font-size: 34px;
+  font-weight: 700;
+  color: hsl(204, 43%, 93%);
+}
+
+.per-month {
+  color: hsla(203, 44%, 93%, 0.59);
+}
+
+.access-para {
+  color: hsl(204, 43%, 93%);
+  margin-bottom: 30px;
+}
+
+.signup-btn {
+  background-color: hsl(71, 73%, 54%);
+  color: hsl(204, 43%, 93%);
+  border: 0;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 14px;
+  border-radius: 5px;
+  box-shadow: 0 5px 20px hsl(179, 59%, 38%);
+}
+
+.signup-btn:hover {
+  cursor: pointer;
+  background-color: hsla(71, 73%, 54%, 0.915);
+}
+
+/* Why Us */
+.why-us h3 {
+  color: hsl(204, 43%, 93%);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.why-us ul {
+  color: hsla(203, 44%, 93%, 0.733);
+  list-style: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.why-us li {
+  margin-bottom: 0px;
+}
+
 /* Default Styles for Footer */
 .attribution {
   font-size: 11px;
