@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/single-price-grid-component-using-css-grid-BoOdjmO35a)
 - Live Site URL: [ali-single-price-grid-component](https://ali-single-price-grid-component.netlify.app)
 
 ## Author
