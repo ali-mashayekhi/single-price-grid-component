@@ -13,7 +13,7 @@ body {
 
 .price-grid-component {
   margin: 100px auto;
-  width: 650px;
+  max-width: 650px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   border: 1px;
@@ -128,4 +128,28 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 376px) {
+  .price-grid-component {
+    margin: 50px auto;
+    max-width: 340px;
+    grid-template-columns: 1fr;
+    border-radius: 10px;
+  }
+
+  .description {
+    border-radius: 10px 10px 0 0;
+    padding: 40px;
+  }
+
+  .subscription {
+    border-bottom-left-radius: 0px;
+    padding: 40px;
+  }
+
+  .why-us {
+    border-radius: 0 0 10px 10px;
+    padding: 40px;
+  }
 }
