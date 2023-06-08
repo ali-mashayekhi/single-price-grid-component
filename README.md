@@ -27,14 +27,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot1.jpg)
-![](./screenshot2.jpg)
-![](./screenshot3.jpg)
+![](./screenshot1.png)
+![](./screenshot2.png)
+![](./screenshot3.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://ali-single-price-grid-component.netlify.app)
+- Live Site URL: [https://ali-single-price-grid-component.netlify.app]
 
 ## My process
 
