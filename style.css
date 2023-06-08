@@ -130,10 +130,10 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 376px) {
+@media (max-width: 476px) {
   .price-grid-component {
     margin: 50px auto;
-    max-width: 340px;
+    max-width: 400px;
     grid-template-columns: 1fr;
     border-radius: 10px;
   }
